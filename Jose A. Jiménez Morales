@@ -1,8 +1,0 @@
-Una de mis ideas para la MINIBLIP es usarla como una estacion meteorológica USB:
-
-A través de las diferentes conexiones se pueden añadir varios sensores: 
-desde un pequeño sensor de viento, a un sensor de humedad, pasando por un barometro, altimetro, etc.
-Con ellos se medirian las condiciones climáticas, y mediante la matriz de leds se informaría al usuario
-del estado actual del tiempo. Además, colocando varias de estas herramientas por toda una región
-y conectándolas a internet a una base de datos, obtendriamos un amplio registro meteorológico 
-de manera sencilla, eficaz y barata.
