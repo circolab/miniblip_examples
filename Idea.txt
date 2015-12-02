@@ -1,0 +1,6 @@
+Mi idea de uso para la placa sería conectar un sensor atmosférico que recoja los datos de temperatura ambiental (o mas fácil, una petición GET
+de algun servidor que ofrezca la información ambiental de tu zona) y que te dibuje en los leds o bien:
+  -Un sol para soleado.
+  -Una linea que simbolice una nube.
+  -Una linea con puntitos cayendo para lluvia, cuantos mas puntos mas fuerte la lluvia, etc.
+Estos son ejemplos, el límite estaría en los leds.
