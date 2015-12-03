@@ -1,0 +1,3 @@
+Utilizaria la placa para realizar un juego en el cual el usuario interactue con los distintos sensores capacitivos y con los
+leds de tal forma que mostraría una secuencia a traves de los leds la cual el usuario debe de introducir a traves de los sensores,
+aumentándose la dificultad de esta secuencia conforme vaya acertando.
