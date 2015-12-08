@@ -24,30 +24,30 @@ ui.onKeyDown(function(key) {
     //txt.setText("Pressed key: " +  key);
     switch(key){
         case 21:
-            media.playSound("sound1.wav");
-            ui.backgroundImageTile("circolab1.png");
+            media.playSound("sound5.wav");
+            ui.backgroundImageTile("bq1.png");
             break;
         case 19:
-            media.playSound("sound2.wav");
-            ui.backgroundImageTile("circolab2.png");
+            media.playSound("sound6.wav");
+            ui.backgroundImageTile("bq2.png");
             break;
         case 20:
-            media.playSound("sound3.wav");
-            ui.backgroundImageTile("circolab3.png");
+            media.playSound("sound7.wav");
+            ui.backgroundImageTile("bq3.png");
             break;
         case 22:
-            media.playSound("sound4.wav");
-            ui.backgroundImageTile("circolab4.png");
+            media.playSound("sound8.wav");
+            ui.backgroundImageTile("bq4.png");
             break;
         case 24:
             ui.backgroundColor(0, 0, 0);
-            media.playSound("sound1.wav");
+            media.playSound("sound5.wav");
             //ui.backgroundImageTile("circolab_logo.svg");
             var img = ui.addImage( "circolab_logo.svg", 0, 0, 1080, 1920);
             break;
         case 25:
             ui.backgroundColor(0, 0, 0);
-            media.playSound("sound2.wav");
+            media.playSound("sound6.wav");
             break;
     }
 });
