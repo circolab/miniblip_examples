@@ -75,6 +75,10 @@ int main()
     PwmOut speaker(P0_8);
     speaker=0.0;
     
+    pinta(0,0,0);
+    
+    wait(1);
+    
     for (int i = 0; i < TOUCH_N; i++) {
         p_touch_io[i] = new DigitalInOut(touch_pin[i]);
         p_touch_io[i]->mode(PullDown);
