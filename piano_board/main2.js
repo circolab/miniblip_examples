@@ -25,19 +25,23 @@ ui.onKeyDown(function(key) {
     switch(key){
         case 21:
             media.playSound("sound5.wav");
-            ui.backgroundImageTile("bq1.png");
+            //ui.backgroundImageTile("bq1.png");
+            ui.backgroundColor(235, 0, 0);
             break;
         case 19:
             media.playSound("sound6.wav");
-            ui.backgroundImageTile("bq2.png");
+            //ui.backgroundImageTile("bq2.png");
+            ui.backgroundColor(0, 235, 0);
             break;
         case 20:
             media.playSound("sound7.wav");
-            ui.backgroundImageTile("bq3.png");
+            //ui.backgroundImageTile("bq3.png");
+            ui.backgroundColor(0, 0, 235);
             break;
         case 22:
             media.playSound("sound8.wav");
-            ui.backgroundImageTile("bq4.png");
+            //ui.backgroundImageTile("bq4.png");
+            ui.backgroundColor(235, 235, 0);
             break;
         case 24:
             ui.backgroundColor(0, 0, 0);

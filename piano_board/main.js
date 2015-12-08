@@ -1,7 +1,7 @@
 /*
-*	
-*	Miniblip piano protocoder example
-*	by paclema on CIRCOLAB
+*   
+*   Miniblip piano protocoder example
+*   by paclema on CIRCOLAB
 *
 */
 
@@ -25,19 +25,23 @@ ui.onKeyDown(function(key) {
     switch(key){
         case 21:
             media.playSound("sound1.wav");
-            ui.backgroundImageTile("circolab1.png");
+            //ui.backgroundImageTile("circolab1.png");
+            ui.backgroundColor(235, 0, 0);
             break;
         case 19:
             media.playSound("sound2.wav");
-            ui.backgroundImageTile("circolab2.png");
+            //ui.backgroundImageTile("circolab2.png");
+            ui.backgroundColor(0, 235, 0);
             break;
         case 20:
             media.playSound("sound3.wav");
-            ui.backgroundImageTile("circolab3.png");
+            //ui.backgroundImageTile("circolab3.png");
+            ui.backgroundColor(0, 0, 235);
             break;
         case 22:
             media.playSound("sound4.wav");
-            ui.backgroundImageTile("circolab4.png");
+            //ui.backgroundImageTile("circolab4.png");
+            ui.backgroundColor(235, 235, 0);
             break;
         case 24:
             ui.backgroundColor(0, 0, 0);
