@@ -7,12 +7,13 @@ import pygame.mixer
 	
 pygame.display.set_mode((120, 120), DOUBLEBUF | HWSURFACE)
 
+pygame.mixer.pre_init(frequency=44100, size=-16, channels=8, buffer=4096)
 pygame.init()
 
 sound1 = pygame.mixer.Sound('sound1.wav')
-sound2 = pygame.mixer.Sound('sound2.mp3')
-sound3 = pygame.mixer.Sound('sound3.mp3')
-sound4 = pygame.mixer.Sound('sound4.mp3')
+sound2 = pygame.mixer.Sound('sound2.wav')
+sound3 = pygame.mixer.Sound('sound3.wav')
+sound4 = pygame.mixer.Sound('sound4.wav')
 sound5 = pygame.mixer.Sound('sound5.wav')
 sound6 = pygame.mixer.Sound('sound6.wav')
 sound7 = pygame.mixer.Sound('sound7.wav')
@@ -23,8 +24,6 @@ sound8 = pygame.mixer.Sound('sound8.wav')
 
 #time.sleep(4)
 #print 'Music stops'
-
-    
     
     
 pygame.init()
@@ -60,21 +59,23 @@ while not crashed:
             if event.key == pygame.K_LEFT:
                 x_change = -5
                 pygame.mixer.Sound.play(sound1)
-            elif event.key == pygame.K_RIGHT:
+            elif event.key == pygame.K_UP:
 				#x_change = + 5
                 pygame.mixer.Sound.play(sound2)
-            elif event.key == pygame.K_RIGHT:
+            elif event.key == pygame.K_DOWN:
                 pygame.mixer.Sound.play(sound3)
             elif event.key == pygame.K_RIGHT:
                 pygame.mixer.Sound.play(sound4)
-            elif event.key == pygame.K_RIGHT:
+            elif event.key == pygame.K_1:
 				pygame.mixer.Sound.play(sound5)
-            elif event.key == pygame.K_RIGHT:
+            elif event.key == pygame.K_2:
                 pygame.mixer.Sound.play(sound6)
-            elif event.key == pygame.K_RIGHT:
+            elif event.key == pygame.K_3:
                 pygame.mixer.Sound.play(sound7)
-            elif event.key == pygame.K_RIGHT:
+            elif event.key == pygame.K_4:
                 pygame.mixer.Sound.play(sound8)
+                
+		#time.sleep(2)
                 
                 
         if event.type == pygame.KEYUP:
