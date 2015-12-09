@@ -1,0 +1,3 @@
+El proyecto consistiria en que el porcentaje de humedad en el aire lo indica la matriz de led
+segun el color y la cantidad de leds encendidos. Entonces el drone se ira moviendo por diferentes zonas 
+y el observador puede ver la humedad a simple vista y en pocos segundos de zonas inaccesibles o de dificil acceso.
