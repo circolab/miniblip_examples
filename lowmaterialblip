@@ -1,0 +1,7 @@
+Soy Mari Carmen y estudio Ingeniería en Organización Industrial en Sevilla.
+Me gustaría desarrollar el siguiente proyecto que se podria apliar por ejemplo en fabricación de productos.
+Para los puestos de trabajo que tengan diferentes dispensadores se le puede poner un sensor debajo de peso 
+configurado para que cuando se este acabando la mercancia se vaya rellenando de rojo la matriz de leds y
+cuando este llena se ponga verde. Así el reponedor sabría más facilmente cuales son los dispensadores que
+tienen que rellenarse más rápido. (también podría configurarse por la frecuencia del zumbador).
+Esta sería una de las cosas que haría con miniblip.
