@@ -1,0 +1,12 @@
+¡Buenas! Soy Manuel Aguilar, becario en Sandetel. 
+
+Quería aportar mi idea para usar con la placa Miniblip. 
+
+Soy estudiante y aún vivo con mis padres, probablemente por poco tiempo. Cuando estás bajo su mismo techo, rara es la vez que 
+sales de tu casa y tu madre no te dice: "niño, ponte algo encima que hace mucho frío fuera". Y no suele fallar: cuando no están y 
+sales a la calle en pleno invierno te congelas vivo. Pero cuando te independices eso va a ser el pan de cada día: saldrás a la 
+calle y no tendrás a nadie que te diga si la ropa que llevas es la adecuada o no.
+
+Mi idea es la siguiente: mediante sensores, una placa Miniblip colocada en tu ropa compara la temperatura a la que te encuentras
+con la que hay fuera. De esta manera, y mediante un actuador (vibración, sonidos, luces...) te avisará si no vas lo suficientemente
+abrigado para soportar el frío invernal. 
